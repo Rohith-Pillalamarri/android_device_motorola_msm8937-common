@@ -1,14 +1,29 @@
 [
-   {
-    "repository": "android_kernel_motorola_msm8937",
-    "target_path": "kernel/motorola/msm8937"
-   },
-   {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
-   },
-   {
-    "repository": "android_system_qcom",
-    "target_path": "system/qcom"
-   }
+ {
+   "remote":      "github",
+   "repository":  "Rohith-Pillalamarri/kernel_motorola_msm8937",
+   "target_path": "kernel/motorola/msm8937",
+   " branch":     "hannah"
+ },
+ {
+   "remote":      "github",
+   "repository":  "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "revision":    "Lineage-17.1"
+ },
+ {
+   "remote":      "github",
+   "repository":  "LineageOS/android_system_qcom",
+   "target_path": "system/qcom",
+   "revision":    "lineage-17.1"
+ },
+ {
+   "remote":      "github",
+   "repository":  "Rohith-Pillalamarri/vendor_motorola_hannah",
+   "target_path": "motorola/hannah",
+   "revision":    "hannah"
+  }
 ]
+
+
+
