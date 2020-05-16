@@ -70,6 +70,7 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_NO_CHARGER_LED := true
+WITH_LINEAGE_CHARGER := false
 
 # Enable dex-preoptimization to speed up first boot sequence
 ifeq ($(HOST_OS),linux)
